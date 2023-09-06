@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Complex Example</title>
+    <style>
+        /* Reset some default browser styles */
+        body, h1, h2, h3, p, ul, li {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Basic styling for the header */
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        /* Navigation bar styling */
+        nav {
+            background-color: #444;
+            color: #fff;
+            padding: 10px;
+        }
+
+        nav ul {
+            list-style: none;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        /* Main content and sidebar layout */
+        .content {
+            display: flex;
+            justify-content: space-between;
+            margin: 20px;
+        }
+
+        .main {
+            flex: 2;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+
+        .sidebar {
+            flex: 1;
+            padding: 20px;
+            background-color: #ddd;
+        }
+
+        /* Footer styling */
+        footer {
+            text-align: center;
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Website</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="content">
+        <section class="main">
+            <h2>Welcome to our Website</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eleifend eros in risus iaculis, vel volutpat ligula tempus.</p>
+        </section>
+        
+        <aside class="sidebar">
+            <h3>Latest News</h3>
+            <ul>
+                <li><a href="#">New Product Release</a></li>
+                <li><a href="#">Upcoming Events</a></li>
+                <li><a href="#">Company Updates</a></li>
+            </ul>
+        </aside>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 My Website</p>
+    </footer>
+</body>
+</html>
